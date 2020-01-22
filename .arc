@@ -1,12 +1,11 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+dream-c3i
+
+@static
 
 @http
 get /
+get /data
 
 @tables
 data

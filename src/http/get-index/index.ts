@@ -12,7 +12,7 @@ let body = `
 
     <h1 class="center-text">
       <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello world!
+      Hello world from BEGIN APP !
     </h1>
 
     <p class="center-text">
@@ -23,7 +23,7 @@ let body = `
 </html>
 `
 
-export async function handler (req: object) {
+export async function handler(req: object) {
   return {
     headers: {
       'content-type': 'text/html; charset=utf8',
